@@ -1,3 +1,9 @@
+macro_csp: macro_csp{
+compatible = "zmk,behavior-macro";
+label = "macro_csp";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHIFT>, <&kp P>;
+};
 macro_new_tab: macro_new_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_new_tab";
